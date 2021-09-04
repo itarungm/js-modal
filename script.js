@@ -19,11 +19,3 @@ open.addEventListener('click',()=>{
 close.addEventListener('click',removeClass);
 
 overlay.addEventListener('click',removeClass)
-
-
-console.log(helloDiv);
-helloDiv =Array.from(helloDiv)
-helloDiv.forEach(element => {
-    console.log(element);
-    element.style.color='red'
-});
